@@ -32,7 +32,6 @@ class Solution {
                 if(inc[j]!=lm) break;
                 l++;
             }
-            System.out.println(i+" "+l+" "+r);
             if(l==1 || r==1) continue;
             ans=Math.max(ans,l+r-1);
         }
